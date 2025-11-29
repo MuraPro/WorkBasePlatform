@@ -1,0 +1,6 @@
+{
+  "port": 8080,
+  "mongoUri": "mongodb+srv://${MONGO_USER}:${MONGO_PASSWORD}@cluster0.yf0lh2j.mongodb.net/?appName=Cluster0",
+  "accessSecret": "secyrity secret from backend",
+  "refreshSecret": "secyrity refresh secret from backend"
+}

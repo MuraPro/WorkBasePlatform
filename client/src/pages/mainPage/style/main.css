@@ -1,0 +1,47 @@
+.custom-init-button {
+  width: auto;
+}
+
+@media (max-width: 480px) {
+  .custom-init-button {
+    width: 80%;
+  }
+}
+
+.main-header {
+  background: linear-gradient(135deg, #007bff, #00bfff);
+}
+
+.main-header h1 {
+  font-size: 3rem;
+}
+
+.main-header p {
+  font-size: 1.25rem;
+}
+
+.cta-section {
+  border-top: 1px solid #ddd;
+}
+
+.main-header {
+  background: linear-gradient(135deg, #007bff, #00bfff);
+  width: 100%;
+}
+
+.advantages-section {
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.cta-section {
+  background: #fff;
+  border-top: 1px solid #eee;
+  width: 100%;
+}
+
+@media (max-width: 575.98px) {
+  .p-xs-3 {
+    padding: 1rem !important; /* 1rem = Bootstrap p-3 */
+  }
+}

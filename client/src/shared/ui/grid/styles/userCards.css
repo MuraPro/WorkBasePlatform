@@ -1,0 +1,65 @@
+/* === GRID контейнер === */
+.cards-grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* === Карточка === */
+.user-card-modern {
+  width: 300px; /* фиксированная ширина */
+  min-height: 200px;
+  display: flex;
+  gap: 14px;
+  padding: 16px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: 0.2s ease;
+}
+
+.user-card-modern:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* === Аватар === */
+.user-card-avatar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #f0f0f0;
+}
+
+/* === Информация === */
+.user-card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  flex: 1;
+}
+
+.user-card-name {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+}
+
+/* === Детали === */
+.user-card-details {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  color: #444;
+}
+
+/* === Кнопка избранного === */
+.user-card-bookmark {
+  margin-top: auto;
+}

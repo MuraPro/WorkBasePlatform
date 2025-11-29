@@ -1,0 +1,15 @@
+module.exports = {
+  EMAIL_EXISTS: 'Пользователь с таким Email уже существует',
+  EMAIL_NOT_FOUND: 'Пользователь с таким Email не найден',
+  INVALID_PASSWORD: 'Email или пароль введены некорректно',
+  USER_DISABLED: 'Этот аккаунт был отключён администратором',
+  UNAUTHORIZED: 'Нет доступа. Авторизуйтесь снова',
+  SERVER_ERROR: 'Ошибка сервера. Попробуйте позже',
+  PERMISSION_DENIED: 'Вы не можете выполнить это действие',
+  REFRESH_TOKEN_REQUIRED: 'Токен обязателен для заполнения',
+  INVALID_FIELD: 'Некорректные данные в поле',
+  COMMENT_NOT_FOUND: 'Комментарий не найден',
+  CANNOT_LIKE_YOURSELF: 'Нельзя лайкнуть себя',
+  ALREADY_LIKED: 'Вы уже лайкали этого пользователя',
+  USER_NOT_FOUND: 'Пользователь не найден',
+};

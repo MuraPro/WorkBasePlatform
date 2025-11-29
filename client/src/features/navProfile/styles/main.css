@@ -1,0 +1,68 @@
+.transition-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  transform-origin: center;
+}
+
+.rotate-icon {
+  transform: rotateX(180deg);
+}
+
+.animated-dropdown {
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  display: block; /* чтобы transition работал */
+  padding: 0; /* убрать лишние отступы при закрытии */
+  pointer-events: none;
+}
+
+.animated-dropdown.show {
+  max-height: 500px; /* достаточно большое значение */
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  padding: 0.5rem 0; /* вернуть отступы при открытии */
+}
+
+.custom-link {
+  color: black;
+  &:hover {
+    color: #f39c12;
+  }
+}
+
+.btn:focus,
+.btn:focus-visible,
+.btn:focus-within {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.nav-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-avatar-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  transition:
+    transform 0.2s ease,
+    opacity 0.2s ease;
+}
+
+.nav-avatar-img:hover {
+  transform: scale(1.05);
+}
