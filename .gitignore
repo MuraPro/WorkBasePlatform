@@ -9,11 +9,6 @@ build/
 *.log
 *.tsbuildinfo
 
-.env
-.env.local
-.env.development
-.env.production
-.env.test
 .env.*.local
 
 .DS_Store
