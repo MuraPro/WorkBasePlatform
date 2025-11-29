@@ -48,33 +48,6 @@
 
 ## 📦 Структура проекта по FSD(Feature slice design)
 
-WorkBase Project/
-│
-├── client/ # React + Redux Toolkit
-│ ├── components/
-│ ├── hooks/
-│ ├── layout/
-│ ├── pages/
-│ ├── services/
-│ ├── store/
-│ ├── utils/
-│ └── AppLoader.jsx
-│
-├── server/ # Node.js + Express + MongoDB
-│ ├── controllers/
-│ ├── middleware/
-│ ├── models/
-│ ├── routes/
-│ ├── services/
-│ ├── startUp/
-│ └── utils/
-│
-├── Dockerfile
-├── package.json
-└── README.md
-
----
-
 ## 🌐 Деплой
 
 Проект развернут на Render:  
