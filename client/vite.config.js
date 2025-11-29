@@ -26,7 +26,6 @@ export default defineConfig({
   server: {
     historyApiFallback: true,
     fs: {
-      // Разрешаем Vite читать файлы из родительской директории
       allow: ['..'],
     },
   },

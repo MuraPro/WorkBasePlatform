@@ -32,9 +32,6 @@ app.use(
 );
 app.use(cors());
 
-// /api/auth/signUp
-// /api/auth/signWithPassword
-// /api/auth/token
 app.use("/api", routes);
 app.use("/comment", routes);
 app.use("/quality", routes);
@@ -49,7 +46,6 @@ if (process.env.NODE_ENV === "production") {
 
   app.use(express.static(clientPath));
 
-  // Catch-all route for SPA
   app.get(/.*/, (req, res) => {
     res.sendFile(path.join(clientPath, "index.html"));
   });

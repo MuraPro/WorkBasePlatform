@@ -2,11 +2,11 @@ import axios from 'axios';
 import { toast } from 'react-toastify';
 import { localStorageService } from '@shared/lib/storage';
 import { authService } from '@entities/user';
-import { API_ENDPOINT } from '../../config/config';
+import { VITE_API_ENDPOINT } from '../../config/config';
 import logger from '../logger/logger';
 
 const http = axios.create({
-  baseURL: API_ENDPOINT,
+  baseURL: VITE_API_ENDPOINT,
 });
 
 http.interceptors.request.use(
@@ -64,8 +64,3 @@ const httpService = {
 };
 
 export default httpService;
-
-// (res) => {
-// res.data = { content: res.data };
-// return res;
-// },
